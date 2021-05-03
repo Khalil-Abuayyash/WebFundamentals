@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 40px;
+    background-color: rgb(222, 243, 222);
+    padding: 5px;
+}
+
+header h2 {
+    display: inline-block;
+    width: 47%;
+}
+
+#h2left {
+    text-align: end;
+}
+
+main {
+    padding: 10px;
+    background-color: indigo;
+    min-height: 400px;
+}
+
+main > div {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#about {
+    height: 387px;
+    background: linear-gradient(90deg,rgb(229, 209, 209),rgb(190, 173, 173));
+}
+#about h3 {
+    color: white;
+    background: linear-gradient(0deg,rgb(229, 209, 209),gray,rgb(229, 209, 209));
+}
+
+#my {
+    width: 45%;
+}
+
+#my img {
+    width: 100%;
+}
+
+#about {
+    width: 50%;
+    background-color: rgb(224, 219, 212);
+}
+
+#about h3, #about p {
+    padding: 10px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around ;
+}
+
+.col {
+    width: 32%;
+    background-color: rgb(224, 219, 212);
+    margin: 10px;
+}
+
+.webpic {
+    width: 100%;
+}
+
+.col h1, .col h2 {
+    color: white;
+    padding: 10px;
+    background: linear-gradient(0deg,rgb(229, 209, 209),gray,rgb(229, 209, 209));
+}
+
+.col p {
+    padding: 10px;
+    height: 100px;
+    background: linear-gradient(90deg,rgb(229, 209, 209),rgb(179, 167, 167));
+}
+
+.contimg {
+    background: linear-gradient(90deg,rgb(229, 209, 209),rgb(179, 167, 167));
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contimg img{
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+}
+
+.button {
+    height: 50px;
+    background: linear-gradient(90deg,rgb(229, 209, 209),rgb(179, 167, 167));
+    text-align: center;
+    padding: 10px;
+}
+.button a {
+    text-decoration: none;
+    color : white;
+    background-color: green;
+    border-radius: 25px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+}
+
+footer {
+    background-color: rgb(222, 243, 222);
+    min-height: 50px;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+ul li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+ul img {
+    height: 15px;
+    width: 15px;
+    padding-right: 2px;
+}
+
+footer ul {
+    list-style: none;
+}

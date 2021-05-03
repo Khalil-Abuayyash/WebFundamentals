@@ -1,0 +1,1 @@
+for (var i = 1,sum = 0; i<= 5; i++) console.log("num: ",i," sum: ", sum+=i);

@@ -1,0 +1,44 @@
+.center-box {
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item {
+    background-color: cornsilk;
+    height: 50px;
+    width: 50px;
+
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(85, 158, 241);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100px;
+    align-self: center;
+}
+

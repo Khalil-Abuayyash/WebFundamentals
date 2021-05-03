@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 970px;
+    margin: auto;
+    display: flex;
+}
+
+body * {
+    padding: 10px;
+}
