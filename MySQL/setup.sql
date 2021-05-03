@@ -1,0 +1,3 @@
+-- use twitter;
+-- insert into users (first_name, last_name)
+-- values ("khalil", "Abuayyash");
